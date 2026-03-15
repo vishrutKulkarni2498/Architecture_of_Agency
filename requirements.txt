@@ -1,0 +1,16 @@
+# --- Core Orchestration ---
+langgraph>=0.0.39
+langchain>=0.1.0
+langchain-google-genai>=1.0.0  # Or langchain-openai if using GPT
+pydantic>=2.0.0
+
+# --- Environment & Notebooks ---
+python-dotenv>=1.0.0
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# --- Visualization (For mermaid diagrams) ---
+pyyaml>=6.0
+grandalf>=0.8
+# Note: For draw_mermaid_png, users may need to install
+# 'pygraphviz' or have a working internet connection for the mermaid.ink API
